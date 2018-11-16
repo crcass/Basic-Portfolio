@@ -73,6 +73,10 @@ nav span:nth-child(2) {
 	border-left: 1px solid #777;
 }
 
+nav span:hover {
+	color: #4aaaa5;
+}
+
 /* Article */
 
 article {
@@ -80,6 +84,7 @@ article {
 	border: 1px solid #ccc;
 	margin-top: 130px;
 	margin-bottom: 350px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .article-container {
@@ -138,6 +143,10 @@ article .image {
 	margin-bottom: 9px;
 }
 
+.portfolio-links h2:hover {
+	background-color: #377F7C;
+}
+
 #hangman {
 	background-image: url(../../assets/images/abstract2.jpg);
 }
@@ -180,6 +189,10 @@ input[type="submit"] {
 	margin-top: 20px;
 	font-size: 16px;
 	font-weight: bold;
+}
+
+input[type="submit"]:hover {
+	background-color: #377F7C;
 }
 
 /* Footer */
