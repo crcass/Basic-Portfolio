@@ -164,7 +164,7 @@ h3:hover {
 input {
 	width: 892px;
 	height: 24px;
-	margin-bottom: 12px;
+	margin: 6px 0 12px 0;
 }
 
 textarea {
