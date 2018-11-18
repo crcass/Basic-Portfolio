@@ -78,8 +78,8 @@ article {
 }
 
 .article-container {
-	width: 898px;
-	padding: 0px 30px 30px 30px;
+	width: 90%;
+	margin: 0 auto;
 }
 
 h2 {
@@ -97,7 +97,7 @@ h2 {
 }
 
 article .image {
-	max-width: 200px;
+	width: 200px;
 }
 
 /* Bio Page */
@@ -112,13 +112,10 @@ article .image {
 #portfolio-content {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 56px 38px;
+	grid-gap: 56px 33px;
 }
 
 .portfolio-links {
-	height: 206px;
-	width: 274px;
-	background-size: cover;
 	display: flex;
 	justify-content: center;
 }
@@ -141,28 +138,33 @@ h3:hover {
 
 #hangman {
 	background-image: url(../../assets/images/abstract2.jpg);
+	background-size: cover;
 }
 
 #rpg {
 	background-image: url(../../assets/images/abstract3.jpg);
+	background-size: cover;
 }
 
 #trivia {
 	background-image: url(../../assets/images/abstract6.jpg);
+	background-size: cover;
 }
 
 #widget {
 	background-image: url(../../assets/images/abstract7.jpg);
+	background-size: cover;
 }
 
 #rock {
 	background-image: url(../../assets/images/abstract9.jpg);
+	background-size: cover;
 }
 
 /* Contact Page*/
 
 input {
-	width: 892px;
+	width: 99%;
 	height: 24px;
 	margin: 6px 0 12px 0;
 }
@@ -171,6 +173,7 @@ textarea {
 	resize: none;
 	border-color: #ccc;
 	margin-top: 8px;
+	width: 99%;
 }
 
 input[type="submit"] {
